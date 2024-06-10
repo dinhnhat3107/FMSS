@@ -1,0 +1,63 @@
+.user-manual-side {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+}
+.info-container {
+    background-color: white;
+    padding: 20px;  
+    border-radius: 5px;
+    width: 1100px;
+    height: auto;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 385px;
+    overflow: auto;
+}
+.btn-back {
+    position: absolute;
+    left: 0;
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: #0a6cd6;
+    color: white;
+    border: 2px solid #bec4ca;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    text-shadow: 1px 1px 2px black; 
+    transition: background-color 0.5s ease;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+  .btn-back:hover {
+    background-color: #4925fb;
+    border-color: #1a04e4; 
+}
+.btn-back:active { 
+  transform: translateY(4px); 
+}
+.list {
+  position: absolute;
+  left: 10px;
+  margin-top: 50px;
+  margin-left: 10px;
+}
+.list h2 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: white;
+}
+.list ul, li {
+  color: white;
+}
+a:visited {
+  color: inherit;  /* Màu sắc sẽ không thay đổi sau khi liên kết được nhấp vào */
+}
+
+a {
+  text-decoration: none;  /* Loại bỏ gạch chân cho tất cả các liên kết */
+}
