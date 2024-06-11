@@ -45,6 +45,9 @@
   margin-top: 50px;
   margin-left: 10px;
 }
+.list a{
+  color: white;
+}
 .list h2 {
   font-size: 30px;
   font-weight: 600;
